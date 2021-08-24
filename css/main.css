@@ -48,7 +48,7 @@ body {
 
 /*AMF modified classes*/
 
-/*Progres bar background color*/
+/*Progress bar background color*/
 .amf-progress {
 	height: 1.5rem!important;
 }
@@ -64,10 +64,10 @@ body {
 	background-color: #DE9C25
 }
 
-.amf-boostrap-bar {
+.amf-bootstrap-bar {
 	background-color: #7952B3
 }
-/*Progres bar background color*/
+/*Progress bar background color*/
 
 /*Skills section: fa-awesome icon color*/
 .fa-html5-text {
@@ -82,7 +82,7 @@ body {
 	color: #DE9C25
 }
 
-.fa-boostrap-text {
+.fa-bootstrap-text {
 	color: #7952B3
 }
 /*End of Skills section: fa-awesome icon color */
