@@ -2,7 +2,10 @@
 body {
 	font-family: "Roboto", sans-serif;
     font-weight: bold;
-	
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 .height {
@@ -98,7 +101,6 @@ body {
   bottom: 5rem;
   right: 5rem;
   color: #0d6efd;
-  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +112,6 @@ body {
 }
 
 .scroll-up-btn i:hover {
-  /*background-color: rgba(13, 110, 253, 0.3);*/
   background-color: rgba(0, 0, 0, 0.3);
 }
 
