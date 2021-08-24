@@ -1,0 +1,118 @@
+
+body {
+	font-family: "Roboto", sans-serif;
+    font-weight: bold;
+	
+}
+
+.height {
+	min-height: 100vh;
+}
+
+.title-underline {
+	width: 200px;
+	height: 10px;
+	margin: 0 auto;
+	/*background: #0000FF!important;*/
+}
+
+.height-80 {
+	min-height: 80vh;
+}
+
+.about-picture {
+	background: url("../images/about-img.jpg")center/cover no-repeat fixed;
+	/*background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+
+#filler{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url("../images/filler-img.jpg")center/cover no-repeat fixed;
+}
+
+#progress{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url("../images/progress-img.jpg")center/cover no-repeat fixed;
+}
+
+#header{
+	background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url("../images/header.jpg")center/cover no-repeat fixed;
+}
+
+.copyright {
+    color: #777;
+    font-size: 1rem;
+    text-align: center;
+}
+
+/*AMF modified classes*/
+
+/*Progres bar background color*/
+.amf-progress {
+	height: 1.5rem!important;
+}
+
+.amf-html5-bar {
+	background-color: #F4470B;
+}
+.amf-ccs3-bar {
+	background-color: #2194F0;
+}
+
+.amf-js-bar {
+	background-color: #DE9C25
+}
+
+.amf-boostrap-bar {
+	background-color: #7952B3
+}
+/*Progres bar background color*/
+
+/*Skills section: fa-awesome icon color*/
+.fa-html5-text {
+	color: #F4470B
+}
+
+.fa-css3-text {
+	color: #2194F0
+}
+
+.fa-js-text {
+	color: #DE9C25
+}
+
+.fa-boostrap-text {
+	color: #7952B3
+}
+/*End of Skills section: fa-awesome icon color */
+
+/* Scroll up Button  
+****************************************/
+
+.scroll-up-btn i {
+  width: 1.6rem;
+  height: 1.6rem;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  color: #0d6efd;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+  border-radius: 0.1rem;
+  z-index: 100;
+  /*Remember to add in the HTML class (above): 
+  scroll-behavior: smooth;*/
+}
+
+.scroll-up-btn i:hover {
+  /*background-color: rgba(13, 110, 253, 0.3);*/
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Scroll up Button  
+****************************************/
